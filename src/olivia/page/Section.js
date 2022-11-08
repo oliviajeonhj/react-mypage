@@ -1,5 +1,5 @@
 import '../page/olivia.css';
-import mainimg from '../img/wide.jpg';
+import mainimg from '../img/wide2.jpg';
 
 export default function Section() {
   return (
