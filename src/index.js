@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //컴퍼넌트 : 리액트 컨텐츠 단위
-import Header from './olivia/page/Header';
-import Footer from './olivia/page/Footer';
-import Section from './olivia/page/Section';
+import Header from './olivia/Header';
+import Footer from './olivia/Footer';
+import Section from './olivia/Section';
+import Skills from './olivia/Skills';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -13,6 +14,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <Section />
+    <Skills />
     <Footer />
   </React.StrictMode>
 );
